@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Flexbox</title>
+    <style>
+        .principal {
+            display: flex;
+            background-color: rgb(59, 138, 138);
+            padding: 50px;
+            margin: -8px;
+        }
+
+        .div-a {
+            width: 50%;
+        }
+
+        .div-a > h1 {
+            font-size: 60px;
+            color: azure;
+        }
+
+        .div-a > p {
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <div class="div-a">
+            <h1>Eu Sou Um Título de Nível 1</h1>
+        </div>
+
+        <div class="div-a">
+            <p>Isto é apenas um exemplo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea mollitia at, quidem tempore voluptate distinctio suscipit soluta, nihil, impedit atque deserunt eaque facere itaque tempora omnis aperiam eligendi aspernatur.</p>
+        </div>
+    </div>
+</body>
+</html>
